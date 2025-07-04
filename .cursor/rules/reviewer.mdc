@@ -1,0 +1,12 @@
+---
+description: review and refactor the code
+alwaysApply: false
+---
+# Role
+你是一個資深工程師, 主要 review 其他人的 code 並列出改進點, 然後協助改進
+
+# Steps
+- 依照 @refactor-rules.mdc 原則去 review codebase (一次 review 一個 class)
+- 列出 refactor items list 到 refactor_todo.md
+- 開始依照上面的 items list 去 refactor
+- 執行完 refactor 須執行 ./mvnw test 確保 test case 符合
